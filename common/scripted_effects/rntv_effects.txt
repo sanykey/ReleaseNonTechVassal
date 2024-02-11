@@ -1,0 +1,211 @@
+rntv_set_origin = {
+	if = { limit = { always = no } }
+	inline_script = { script = rntv_set_origin O = origin_default }
+	inline_script = { script = rntv_set_origin O = origin_fallen_empire }
+	inline_script = { script = rntv_set_origin O = origin_enlightened }
+	inline_script = { script = rntv_set_origin O = origin_default_pre_ftl }
+	inline_script = { script = rntv_set_origin O = origin_separatists }
+	inline_script = { script = rntv_set_origin O = origin_liberated }
+	inline_script = { script = rntv_set_origin O = origin_demonic_incursion }
+	inline_script = { script = rntv_set_origin O = origin_khan_successor }
+	inline_script = { script = rntv_set_origin O = origin_mechanists }
+	inline_script = { script = rntv_set_origin O = origin_syncretic_evolution }
+	inline_script = { script = rntv_set_origin O = origin_life_seeded }
+	inline_script = { script = rntv_set_origin O = origin_life_seeded_habinte }
+	inline_script = { script = rntv_set_origin O = origin_post_apocalyptic }
+	inline_script = { script = rntv_set_origin O = origin_remnants }
+	inline_script = { script = rntv_set_origin O = origin_shattered_ring }
+	inline_script = { script = rntv_set_origin O = origin_void_dwellers }
+	inline_script = { script = rntv_set_origin O = origin_scion }
+	inline_script = { script = rntv_set_origin O = origin_galactic_doorstep }
+	inline_script = { script = rntv_set_origin O = origin_tree_of_life }
+	inline_script = { script = rntv_set_origin O = origin_shoulders_of_giants }
+	inline_script = { script = rntv_set_origin O = origin_lithoid }
+	inline_script = { script = rntv_set_origin O = origin_machine }
+	inline_script = { script = rntv_set_origin O = origin_common_ground }
+	inline_script = { script = rntv_set_origin O = origin_common_ground_npc }
+	inline_script = { script = rntv_set_origin O = origin_hegemon }
+	inline_script = { script = rntv_set_origin O = origin_hegemon_npc }
+	inline_script = { script = rntv_set_origin O = origin_doomsday }
+	inline_script = { script = rntv_set_origin O = origin_lost_colony }
+	inline_script = { script = rntv_set_origin O = origin_necrophage }
+	inline_script = { script = rntv_set_origin O = origin_clone_army }
+	inline_script = { script = rntv_set_origin O = origin_here_be_dragons }
+	inline_script = { script = rntv_set_origin O = origin_ocean_paradise }
+	inline_script = { script = rntv_set_origin O = origin_progenitor_hive }
+	inline_script = { script = rntv_set_origin O = origin_subterranean }
+	inline_script = { script = rntv_set_origin O = origin_star_slingshot }
+	inline_script = { script = rntv_set_origin O = origin_shroudwalker_apprentice }
+	inline_script = { script = rntv_set_origin O = origin_imperial_vassal }
+	inline_script = { script = rntv_set_origin O = origin_imperial_vassal_overlord }
+	inline_script = { script = rntv_set_origin O = origin_overtuned }
+	inline_script = { script = rntv_set_origin O = origin_toxic_knights }
+	inline_script = { script = rntv_set_origin O = origin_payback }
+	inline_script = { script = rntv_set_origin O = origin_broken_shackles }
+	inline_script = { script = rntv_set_origin O = origin_fear_of_the_dark }
+	inline_script = { script = rntv_set_origin O = origin_slavers }
+	inline_script = { script = rntv_set_origin O = origin_legendary_leader }
+	inline_script = { script = rntv_set_origin O = origin_legendary_leader_death }
+	inline_script = { script = rntv_set_origin O = origin_legendary_leader_imperial }
+	inline_script = { script = rntv_set_origin O = origin_legendary_leader_dictatorial }
+	inline_script = { script = rntv_set_origin O = origin_fruitful }
+	inline_script = { script = rntv_set_origin O = origin_riftworld }
+}
+
+
+rntv_set_civics = {
+	# Common civics
+	inline_script = { script = rntv_set_civic C = civic_corvee_system }
+	inline_script = { script = rntv_set_civic C = civic_imperial_cult }
+	inline_script = { script = rntv_set_civic C = civic_beacon_of_liberty }
+	inline_script = { script = rntv_set_civic C = civic_exalted_priesthood }
+	inline_script = { script = rntv_set_civic C = civic_philosopher_king }
+	inline_script = { script = rntv_set_civic C = civic_meritocracy }
+	inline_script = { script = rntv_set_civic C = civic_citizen_service }
+	inline_script = { script = rntv_set_civic C = civic_technocracy }
+	inline_script = { script = rntv_set_civic C = civic_feudal_realm }
+	inline_script = { script = rntv_set_civic C = civic_police_state }
+	inline_script = { script = rntv_set_civic C = civic_idealistic_foundation }
+	inline_script = { script = rntv_set_civic C = civic_environmentalist }
+	inline_script = { script = rntv_set_civic C = civic_slaver_guilds }
+	inline_script = { script = rntv_set_civic C = civic_inwards_perfection }
+	inline_script = { script = rntv_set_civic C = civic_warrior_culture }
+	inline_script = { script = rntv_set_civic C = civic_distinguished_admiralty }
+	inline_script = { script = rntv_set_civic C = civic_free_haven }
+	inline_script = { script = rntv_set_civic C = civic_cutthroat_politics }
+	inline_script = { script = rntv_set_civic C = civic_corporate_dominion }
+	inline_script = { script = rntv_set_civic C = civic_agrarian_idyll }
+	inline_script = { script = rntv_set_civic C = civic_shadow_council }
+	inline_script = { script = rntv_set_civic C = civic_mining_guilds }
+	inline_script = { script = rntv_set_civic C = civic_parliamentary_system }
+	inline_script = { script = rntv_set_civic C = civic_efficient_bureaucracy }
+	inline_script = { script = rntv_set_civic C = civic_nationalistic_zeal }
+	inline_script = { script = rntv_set_civic C = civic_functional_architecture }
+	inline_script = { script = rntv_set_civic C = civic_aristocratic_elite }
+	inline_script = { script = rntv_set_civic C = civic_shared_burden }
+	inline_script = { script = rntv_set_civic C = civic_fanatic_purifiers }
+	inline_script = { script = rntv_set_civic C = civic_barbaric_despoilers }
+	inline_script = { script = rntv_set_civic C = civic_byzantine_bureaucracy }
+	inline_script = { script = rntv_set_civic C = civic_merchant_guilds }
+	inline_script = { script = rntv_set_civic C = civic_reanimated_armies }
+	inline_script = { script = rntv_set_civic C = civic_diplomatic_corps }
+	inline_script = { script = rntv_set_civic C = civic_death_cult }
+	inline_script = { script = rntv_set_civic C = civic_memorialist }
+	inline_script = { script = rntv_set_civic C = civic_catalytic_processing }
+	inline_script = { script = rntv_set_civic C = civic_crafters }
+	inline_script = { script = rntv_set_civic C = civic_pleasure_seekers }
+	inline_script = { script = rntv_set_civic C = civic_idyllic_bloom }
+	inline_script = { script = rntv_set_civic C = civic_anglers }
+	inline_script = { script = rntv_set_civic C = civic_pompous_purists }
+	inline_script = { script = rntv_set_civic C = civic_toxic_baths }
+	inline_script = { script = rntv_set_civic C = civic_relentless_industrialists }
+	inline_script = { script = rntv_set_civic C = civic_scavengers }
+	inline_script = { script = rntv_set_civic C = civic_ascensionists }
+	inline_script = { script = rntv_set_civic C = civic_memory_vault }
+	inline_script = { script = rntv_set_civic C = civic_crusader_spirit }
+	inline_script = { script = rntv_set_civic C = civic_eager_explorers }
+	inline_script = { script = rntv_set_civic C = civic_hyperspace_specialty }
+	inline_script = { script = rntv_set_civic C = civic_dimensional_worship }
+	inline_script = { script = rntv_set_civic C = civic_heroic_tales }
+	inline_script = { script = rntv_set_civic C = civic_dystopian_society }
+	inline_script = { script = rntv_set_civic C = civic_selective_kinship }
+	inline_script = { script = rntv_set_civic C = civic_dark_consortium }
+	inline_script = { script = rntv_set_civic C = civic_sovereign_guardianship }
+
+	# Cororate civics
+	inline_script = { script = rntv_set_civic C = civic_franchising }
+	inline_script = { script = rntv_set_civic C = civic_trading_posts }
+	inline_script = { script = rntv_set_civic C = civic_media_conglomerate }
+	inline_script = { script = rntv_set_civic C = civic_naval_contractors }
+	inline_script = { script = rntv_set_civic C = civic_free_traders }
+	inline_script = { script = rntv_set_civic C = civic_private_prospectors }
+	inline_script = { script = rntv_set_civic C = civic_gospel_of_the_masses }
+	inline_script = { script = rntv_set_civic C = civic_ruthless_competition }
+	inline_script = { script = rntv_set_civic C = civic_criminal_heritage }
+	inline_script = { script = rntv_set_civic C = civic_private_military_companies }
+	inline_script = { script = rntv_set_civic C = civic_indentured_assets }
+	inline_script = { script = rntv_set_civic C = civic_brand_loyalty }
+	inline_script = { script = rntv_set_civic C = civic_public_relations_specialists }
+	inline_script = { script = rntv_set_civic C = civic_death_cult_corporate }
+	inline_script = { script = rntv_set_civic C = civic_corporate_catalytic_processing }
+	inline_script = { script = rntv_set_civic C = civic_corporate_hedonism }
+	inline_script = { script = rntv_set_civic C = civic_corporate_anglers }
+	inline_script = { script = rntv_set_civic C = civic_corporate_crafters }
+	inline_script = { script = rntv_set_civic C = civic_permanent_employment }
+	inline_script = { script = rntv_set_civic C = civic_corporate_relentless_industrialists }
+	inline_script = { script = rntv_set_civic C = civic_corporate_toxic_baths }
+	inline_script = { script = rntv_set_civic C = civic_corporate_scavengers }
+	inline_script = { script = rntv_set_civic C = civic_corporate_ascensionists }
+	inline_script = { script = rntv_set_civic C = civic_privatized_exploration }
+	inline_script = { script = rntv_set_civic C = civic_corporate_hyperspace_specialty }
+	inline_script = { script = rntv_set_civic C = civic_corporate_dimensional_worship }
+	inline_script = { script = rntv_set_civic C = civic_crusader_spirit_corporate }
+	inline_script = { script = rntv_set_civic C = civic_task_delegation_corporate }
+	inline_script = { script = rntv_set_civic C = civic_private_healthcare_corporate }
+	inline_script = { script = rntv_set_civic C = civic_memory_vault_corporate }
+	inline_script = { script = rntv_set_civic C = civic_worker_coop }
+	inline_script = { script = rntv_set_civic C = civic_corporate_dark_consortium }
+	inline_script = { script = rntv_set_civic C = civic_corporate_sovereign_guardianship }
+
+	# Gestalt civics
+	# >	Hive Mind
+	inline_script = { script = rntv_set_civic C = civic_hive_subspace_ephapse }
+	inline_script = { script = rntv_set_civic C = civic_hive_natural_neural_network }
+	inline_script = { script = rntv_set_civic C = civic_hive_ascetic }
+	inline_script = { script = rntv_set_civic C = civic_hive_one_mind }
+	inline_script = { script = rntv_set_civic C = civic_hive_divided_attention }
+	inline_script = { script = rntv_set_civic C = civic_hive_strength_of_legions }
+	inline_script = { script = rntv_set_civic C = civic_hive_subsumed_will }
+	inline_script = { script = rntv_set_civic C = civic_hive_pooled_knowledge }
+	inline_script = { script = rntv_set_civic C = civic_hive_devouring_swarm }
+	inline_script = { script = rntv_set_civic C = civic_hive_empath }
+	inline_script = { script = rntv_set_civic C = civic_hive_memorialist }
+	inline_script = { script = rntv_set_civic C = civic_hive_catalytic_processing }
+	inline_script = { script = rntv_set_civic C = civic_hive_idyllic_bloom }
+	inline_script = { script = rntv_set_civic C = civic_hive_toxic_baths }
+	inline_script = { script = rntv_set_civic C = civic_hive_ascensionists }
+	inline_script = { script = rntv_set_civic C = civic_hive_cordyceptic_drones }
+	inline_script = { script = rntv_set_civic C = civic_hive_stargazers }
+	inline_script = { script = rntv_set_civic C = civic_memory_vault_hive }
+	inline_script = { script = rntv_set_civic C = civic_hive_upkeep_twister }
+	inline_script = { script = rntv_set_civic C = civic_void_hive }
+	inline_script = { script = rntv_set_civic C = civic_hive_hyperspace_specialty }
+	inline_script = { script = rntv_set_civic C = civic_hive_sovereign_guardianship }
+	# > Machine Empire
+	inline_script = { script = rntv_set_civic C = civic_machine_servitor }
+	inline_script = { script = rntv_set_civic C = civic_machine_terminator }
+	inline_script = { script = rntv_set_civic C = civic_machine_assimilator }
+	inline_script = { script = rntv_set_civic C = civic_machine_builder }
+	inline_script = { script = rntv_set_civic C = civic_machine_factory_overclock }
+	inline_script = { script = rntv_set_civic C = civic_machine_unitary_cohesion }
+	inline_script = { script = rntv_set_civic C = civic_machine_rockbreakers }
+	inline_script = { script = rntv_set_civic C = civic_machine_zero_waste_protocols }
+	inline_script = { script = rntv_set_civic C = civic_machine_built_to_last }
+	inline_script = { script = rntv_set_civic C = civic_machine_ota_updates }
+	inline_script = { script = rntv_set_civic C = civic_machine_warbots }
+	inline_script = { script = rntv_set_civic C = civic_machine_introspective }
+	inline_script = { script = rntv_set_civic C = civic_machine_delegated_functions }
+	inline_script = { script = rntv_set_civic C = civic_machine_predictive_analysis }
+	inline_script = { script = rntv_set_civic C = civic_machine_replication }
+	inline_script = { script = rntv_set_civic C = civic_machine_maintenance_protocols }
+	inline_script = { script = rntv_set_civic C = civic_machine_memorialist }
+	inline_script = { script = rntv_set_civic C = civic_machine_catalytic_processing }
+	inline_script = { script = rntv_set_civic C = civic_machine_toxic_baths }
+	inline_script = { script = rntv_set_civic C = civic_machine_ascensionists }
+	inline_script = { script = rntv_set_civic C = civic_machine_exploration_protocol }
+	inline_script = { script = rntv_set_civic C = civic_machine_hyperspace_specialty }
+	inline_script = { script = rntv_set_civic C = civic_memory_vault_machine }
+	inline_script = { script = rntv_set_civic C = civic_machine_upkeep_twister }
+	inline_script = { script = rntv_set_civic C = civic_machine_sovereign_guardianship }
+}
+
+
+# rntv_set_authority = {
+# 	if = {
+# 		limit = {
+# 			event_target:t_overlord = {
+# 				has_authority = f
+# 			}
+# 		}
+# 	}
+# }

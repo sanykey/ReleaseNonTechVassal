@@ -1,0 +1,9 @@
+# rntv_set_ethic inline script 
+if = {
+	limit = {
+		event_target:t_overlord = {
+			has_ethic = $E$
+		}
+	}
+	country_add_ethic = $E$
+}

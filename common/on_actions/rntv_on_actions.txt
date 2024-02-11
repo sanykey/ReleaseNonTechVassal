@@ -1,0 +1,8 @@
+# fires when a country releases a sector as a vassal
+# This = released vassal
+# From = overlord
+on_released_as_vassal = {
+	events = {
+		rntv_event.1
+	}
+}

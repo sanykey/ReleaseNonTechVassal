@@ -1,0 +1,129 @@
+namespace = rntv_event
+
+# build starbase near selected ship or selected planet or capital
+event = {
+	id = rntv_event.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		this = {
+			save_event_target_as = t_vassal
+		}
+
+		from = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				country_event = {
+					id = rntv_event.2
+					scopes = {
+						from = event_target:t_vassal
+					}
+					days = 2
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = rntv_event.2
+	is_triggered_only = yes
+	title = "Remove technologies?"
+	desc = "Remove technologies?Remove technologies?"
+
+	option = {
+		name = "Remove technologies"
+		hidden_effect = {
+			save_event_target_as = t_overlord
+			from = {
+				save_event_target_as = t_vassal
+				country_event = { id = rntv_event.3 }
+			}
+		}
+	}
+	option = {
+		name = "Do nothing"
+	}
+}
+
+country_event = {
+	id = rntv_event.3
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		owner_species = {
+			save_event_target_as = t_vassal_species
+		}
+
+		capital_scope = {
+			create_country = {
+				species = event_target:t_vassal_species
+				name = event_target:t_vassal
+
+				type = default
+				origin = "origin_default"
+				authority = auth_dictatorial
+				civics = {
+					civic = civic_rntv_empty
+					civic = civic_rntv_empty2
+					civic = civic_rntv_empty2
+				}
+				effect = {
+					save_event_target_as = t_new_vassal
+					
+					rntv_set_origin = yes
+					copy_ethos_and_authority = event_target:t_vassal
+					rntv_set_civics = yes
+					force_remove_civic = civic_rntv_empty
+					force_remove_civic = civic_rntv_empty2
+					force_remove_civic = civic_rntv_empty3
+	
+	
+					event_target:t_overlord = {
+						establish_communications_no_message = event_target:t_new_vassal
+					}
+				}
+			}
+		}
+
+		every_system_within_border = {
+			starbase = {
+				set_owner = event_target:t_new_vassal
+			}
+			every_system_planet = {
+				limit = {
+					exists = owner
+					owner = {
+						is_same_value = event_target:t_vassal
+					}
+				}
+				set_owner = event_target:t_new_vassal
+			}
+		}
+
+		event_target:t_new_vassal = {
+			set_subject_of = {
+				who = event_target:t_overlord
+				allow_instant_negotiation = yes
+			}
+		}
+		event_target:t_overlord = {
+			add_intel = { amount = 100 who = event_target:t_new_vassal }
+			random_agreement = {
+				limit = {
+					owner = { is_same_value = event_target:t_overlord }
+					target = { is_same_value = event_target:t_new_vassal }
+				}
+				add_loyalty = 100
+			}	
+		}
+
+		# from = {
+		# 	set_player = event_target:t_new_vassal
+		# }
+	}
+}

@@ -1,0 +1,9 @@
+# rntv_set_origin inline script 
+else_if = {
+	limit = {
+		event_target:t_overlord = {
+			has_origin  = $O$
+		}
+	}
+	set_origin = $O$
+}

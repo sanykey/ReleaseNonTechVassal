@@ -1,0 +1,9 @@
+# rntv_set_civic inline script
+if = {
+	limit = {
+		event_target:t_overlord = {
+			has_civic = $C$
+		}
+	}
+	force_add_civic = $C$
+}
